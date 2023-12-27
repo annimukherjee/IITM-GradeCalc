@@ -1,0 +1,90 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>-->
+
+    <!-- tailwinnddd -->
+    <!--
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h1 class="text-xl font-bold text-center my-5">Grade Calculator</h1>
+        <div class="grid grid-cols-1 gap-4">
+            <input type="number" id="GAA" placeholder="GAA" class="input input-bordered">
+            <input type="number" id="Quiz1" placeholder="Quiz 1" class="input input-bordered">
+            <input type="number" id="Quiz2" placeholder="Quiz 2" class="input input-bordered">
+            <input type="number" id="Final" placeholder="Final Marks" class="input input-bordered">
+            <input type="number" id="Bonus" placeholder="Bonus" class="input input-bordered">
+            <button id="calculate" class="btn btn-blue">Calculate</button>
+        </div>
+        <div id="result" class="mt-4"></div>
+    </div>-->
+
+    <!-- Your JavaScript File -->
+    <!--
+    <script src="app.js"></script>
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <div class="container py-5">
+        <h1 class="text-center mb-2">IITM BSc Grade Calculator</h1>
+        <p class="text-center text-muted">Enter your details below to calculate your grade.</p>
+
+        
+        <div class="card shadow-sm p-4 mb-4 bg-white">
+            <form id="gradeForm">
+                <div class="form-group">
+                    <label for="GAA">GAA</label>
+                    <input type="number" id="GAA" class="form-control" placeholder="Enter GAA">
+                </div>
+                <div class="form-group">
+                    <label for="Quiz1">Quiz 1</label>
+                    <input type="number" id="Quiz1" class="form-control" placeholder="Enter Quiz 1 score">
+                </div>
+                <div class="form-group">
+                    <label for="Quiz2">Quiz 2</label>
+                    <input type="number" id="Quiz2" class="form-control" placeholder="Enter Quiz 2 score">
+                </div>
+                <div class="form-group">
+                    <label for="Final">Final Marks</label>
+                    <input type="number" id="Final" class="form-control" placeholder="Enter Final Marks">
+                </div>
+                <div class="form-group">
+                    <label for="Bonus">Bonus</label>
+                    <input type="number" id="Bonus" class="form-control" placeholder="Enter Bonus points">
+                </div>
+                <button type="button" id="calculate" class="btn btn-primary btn-block">Calculate</button>
+            </form>
+        </div>
+        <div id="result" class="p-3 mb-2 bg-light text-dark border rounded"></div>
+        <footer class="text-center mt-4">
+            <p>Made with <span class="text-danger">♥</span> by Aniruddha</p>
+        </footer>
+    </div>
+
+    <!-- Your JavaScript File -->
+    <script src="app.js"></script>
+</body>
+
+</html>
