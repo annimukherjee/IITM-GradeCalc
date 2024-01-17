@@ -1,4 +1,5 @@
-#T = 0.1GAA + max (0.6F + 0.2max(Qz1, Qz2),  0.4F + 0.2Qz1 + 0.3Qz2)
+# T = 0.1GAA + max (0.6F + 0.2max(Qz1, Qz2),  0.4F + 0.2Qz1 + 0.3Qz2)
+
 GAA = int(input('GAA: '))
 Q1 = int(input('Quiz 1: '))
 Q2 = int(input('Quiz 2: '))
@@ -28,4 +29,4 @@ elif 70<=T<80:
 elif 80<=T<90:
     print("PASS","Grade = A")
 elif 90<=T:
-    print("PASS","Grade = S","Badhai ho 60 LPA lagega tumhara")
+    print("PASS","Grade = S","Great job, keep it up!")
